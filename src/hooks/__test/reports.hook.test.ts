@@ -1,5 +1,5 @@
 import { renderHook, act } from "@testing-library/react";
-import { useReports } from "./reports.hooks";
+import { useReports } from "../reports.hooks";
 import axios from "axios";
 
 jest.mock("axios");
